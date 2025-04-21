@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(#00000080, rgba(0, 0, 0, 0.5)),
+    url("https://st4.depositphotos.com/5624298/22631/i/950/depositphotos_226316474-stock-photo-school-office-supplies-top-view.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+.cover-container {
+  max-width: 60vw;
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255,0.5);
+    border-bottom-color:rgba(255,255,255,0.5);
+}
+
+.nav-link.active {
+    color: white;
+    border-bottom-color:white;
+
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: #333;
+    text-shadow: none;
+}
+
+.display-1 {
+    font-family: 'Poppins', sans-serif; /* Modern Google Font */
+    font-size: 3.5rem; /* Large but not overwhelming */
+    font-weight: 700; /* Bold for emphasis */
+    text-transform: uppercase; /* Gives a formal look */
+    letter-spacing: 2px; /* Enhances readability */
+    color: white; /* Deep blue-gray for a professional touch */
+    text-align: center; /* Centers the text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    margin-top: 20px;
+}
